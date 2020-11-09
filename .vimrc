@@ -51,3 +51,4 @@ Plug 'vim-airline/vim-airline'
 call plug#end()
 
 map <C-n> :NERDTreeToggle<CR>
+let mapleader = ','
