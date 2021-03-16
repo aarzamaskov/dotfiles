@@ -1,6 +1,6 @@
 [user]
 	name = Andrey Arzamaskov
-	email = arzamaskov@gmail.com
+	email = email@example.com
 
 [alias]
     st = status
@@ -8,3 +8,5 @@
     hist = log --pretty=format:\"%h %ad | %s %d [%an]\" --graph --date=short
     ck = checkout
     cm = commit
+[core]
+	excludesfile = ~/.gitignore
