@@ -119,6 +119,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Syntax checking and semantic errors
 Plug 'w0rp/ale'
 
+" Plugin that lets you highlight, navigate, and operate on sets of matching text
+Plug 'andymass/vim-matchup'
+
 call plug#end()
 
 " ----------------------------------------------------------------------------
