@@ -70,6 +70,9 @@ call plug#begin('~/.config/nvim/plugged')
 " The NERDTree is a file system explorer for the Vim editor
 Plug 'preservim/nerdtree'
 
+" Highlights all visible nodes that are open in Vim and closes buffer
+Plug 'PhilRunninger/nerdtree-buffer-ops'
+
 " Universal set of defaults
 Plug 'tpope/vim-sensible'
 
