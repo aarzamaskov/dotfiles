@@ -32,6 +32,9 @@ map <C-h> <C-w><Left>
 " Toggle NERDTree plugin
 nmap <silent> <leader><leader> :NERDTreeToggle<CR>
 
+" Reveal open file in NERDTree
+nmap ,n :NERDTreeFind<CR>
+
 " Disable search highlighting text
 nnoremap <esc> :noh<return><esc>
 
