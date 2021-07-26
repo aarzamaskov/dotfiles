@@ -32,6 +32,9 @@ map <C-h> <C-w><Left>
 " Toggle NERDTree plugin
 nmap <silent> <leader><leader> :NERDTreeToggle<CR>
 
+" Reveal open file in NERDTree
+nmap ,n :NERDTreeFind<CR>
+
 " Disable search highlighting text
 nnoremap <esc> :noh<return><esc>
 
@@ -160,6 +163,11 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
+
+" NERDTree SETTINGS
+" If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
+autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
+    \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
 " ----------------------------------------------------------------------------
 " COLORS
