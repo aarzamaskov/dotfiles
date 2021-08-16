@@ -33,4 +33,12 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'c',
                 \ 'Unknown'   :'-',
                 \ }
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
 
+" unicode symbols
+let g:airline_symbols.colnr = ' ㏇:'
+let g:airline_symbols.maxlinenr = ' '
+let g:airline_symbols.linenr = ' ㏑:'
