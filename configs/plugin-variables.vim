@@ -42,3 +42,4 @@ endif
 let g:airline_symbols.colnr = ' ㏇:'
 let g:airline_symbols.maxlinenr = ' '
 let g:airline_symbols.linenr = ' ㏑:'
+let g:airline#extensions#coc#enabled = 0
