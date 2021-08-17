@@ -61,6 +61,9 @@ Plug 'vim-vdebug/vdebug'
 " PHP refactoring plugin
 Plug 'adoy/vim-php-refactoring-toolbox'
 
+" Laravel helper
+Plug 'ZzAntares/vim-laravel'
+
 "Look and feel~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 " A plugin of NERDTree showing git status flags
 Plug 'Xuyuanp/nerdtree-git-plugin'
