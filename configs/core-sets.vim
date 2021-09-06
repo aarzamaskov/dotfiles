@@ -24,3 +24,4 @@ set clipboard=unnamedplus      " Use common clipboard in Vim and in other progra
 set number                     " Set line number
 set termguicolors
 set inccommand=nosplit
+set noshowmode                 " Disable default mode indicator

@@ -43,7 +43,7 @@ let g:airline_symbols.colnr = ' ㏇:'
 let g:airline_symbols.maxlinenr = ' '
 let g:airline_symbols.linenr = ' ㏑:'
 let g:airline#extensions#coc#enabled = 0
-let g:airline_section_c = '%t' " Dislay short file name
+" let g:airline_section_c = '%t' " Dislay short file name
 
 if !exists('g:vdebug_options')
     let g:vdebug_options = {}
