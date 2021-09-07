@@ -25,3 +25,5 @@ set number                     " Set line number
 set termguicolors
 set inccommand=nosplit
 set noshowmode                 " Disable default mode indicator
+set cursorline                 " Hightlight current line
+set cursorcolumn               " Hightlight current column
